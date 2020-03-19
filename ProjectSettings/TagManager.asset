@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Platform
+  - Coin
+  - Dino
+  - Alien
+  - Fireball
+  - Scorpion
+  - Iceberg
+  - Water
+  - Polar Bear
+  - Wall
+  - Endgame
+  - A
+  - L
+  - I
+  - E
+  - N
+  - Enemy
+  - BulletDestroy
+  - HealthBar
+  - Spawn
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Death
+    uniqueID: 2923257105
+    locked: 0
+  - name: Background
+    uniqueID: 2212870325
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Left Hand
+    uniqueID: 3158092073
+    locked: 0
+  - name: Head and Body
+    uniqueID: 3463629387
+    locked: 0
+  - name: Eyes
+    uniqueID: 1943868851
+    locked: 0
+  - name: Right Hand
+    uniqueID: 2288642321
+    locked: 0
+  - name: Enemy
+    uniqueID: 2645655203
+    locked: 0
+  - name: Time
+    uniqueID: 1059827493
+    locked: 0
+  - name: Screens
+    uniqueID: 2076624503
+    locked: 0

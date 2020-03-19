@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Level 1/Level One Scenes/Level One - Fail.unity
+  isLoaded: 1
+  isActive: 1
