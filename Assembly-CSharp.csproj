@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DD4BC5CD-5C4C-602D-3EB9-E3D690F4E8F2}</ProjectGuid>
+    <ProjectGuid>{96997186-9B08-EE29-8033-22432B89068D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,86 +63,100 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DestroyBullet.cs" />
-    <Compile Include="Assets\EndGame.cs" />
-    <Compile Include="Assets\Healthbar\experiencebar.cs" />
-    <Compile Include="Assets\Healthbar\healthbar.cs" />
-    <Compile Include="Assets\HiddenTiles.cs" />
-    <Compile Include="Assets\Level 0\Level 0 Scripts\Button.cs" />
-    <Compile Include="Assets\Level 0\Level 0 Scripts\PlayerData.cs" />
-    <Compile Include="Assets\Level 0\Level 0 Scripts\PlayerSelection.cs" />
-    <Compile Include="Assets\Level 0\Level 0 Scripts\SaveSystem.cs" />
-    <Compile Include="Assets\Level 0\Level 0 Scripts\Scroll.cs" />
-    <Compile Include="Assets\Level 1\ArcticMinigame\Scripts\AlienMinigame.cs" />
-    <Compile Include="Assets\Level 1\ArcticMinigame\Scripts\Cubs.cs" />
-    <Compile Include="Assets\Level 1\ArcticMinigame\Scripts\FollowAlienXPos.cs" />
-    <Compile Include="Assets\Level 1\ArcticMinigame\Scripts\iceSheetMove.cs" />
-    <Compile Include="Assets\Level 1\ArcticMinigame\Scripts\IceSheetSpawn.cs" />
-    <Compile Include="Assets\Level 1\ArcticMinigame\Scripts\PolarBear.cs" />
-    <Compile Include="Assets\Level 1\ArcticMinigame\Scripts\PolarBearSpawner.cs" />
-    <Compile Include="Assets\Level 1\ArcticMinigame\Scripts\TimerMinigame.cs" />
-    <Compile Include="Assets\Level 1\Foggy Mountains Background\Demo\BackgroundHelper.cs" />
-    <Compile Include="Assets\Level 1\Level One Scripts\Alien.cs" />
-    <Compile Include="Assets\Level 1\Level One Scripts\BoundsCheck.cs" />
-    <Compile Include="Assets\Level 1\Level One Scripts\CameraControl.cs" />
-    <Compile Include="Assets\Level 1\Level One Scripts\EnemyMotion.cs" />
-    <Compile Include="Assets\Level 1\Level One Scripts\FireballMotion.cs" />
-    <Compile Include="Assets\Level 1\Level One Scripts\FireballSpawn.cs" />
-    <Compile Include="Assets\Level 1\Level One Scripts\Minigame.cs" />
-    <Compile Include="Assets\Level 1\Level One Scripts\OnGround.cs" />
-    <Compile Include="Assets\Level 1\Level One Scripts\OpenChest.cs" />
-    <Compile Include="Assets\Level 1\Level One Scripts\ParallaxCode.cs" />
-    <Compile Include="Assets\Level 1\Level One Scripts\Portal.cs" />
-    <Compile Include="Assets\Level 1\Level One Scripts\Progress.cs" />
-    <Compile Include="Assets\Level 2\Desert Minigame\_Scripts\AddScrore.cs" />
-    <Compile Include="Assets\Level 2\Desert Minigame\_Scripts\CactusMove.cs" />
-    <Compile Include="Assets\Level 2\Desert Minigame\_Scripts\GameManager.cs" />
-    <Compile Include="Assets\Level 2\Desert Minigame\_Scripts\Score.cs" />
-    <Compile Include="Assets\Level 2\Desert Minigame\_Scripts\Spaceship.cs" />
-    <Compile Include="Assets\Level 2\Desert Minigame\_Scripts\Spawner.cs" />
-    <Compile Include="Assets\Scripts\Bullet.cs" />
-    <Compile Include="Assets\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
-    <Compile Include="Assets\Scripts\PlayerSpawn.cs" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\Nature_pixel_art_assets\pixel_snapping_README.txt" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\Healthbar\_Materials\UnlitAlpha.shader" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\Level 1\ArcticMinigame\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <Compile Include="Assets\_Inventory\Scripts\Inventory.cs" />
+    <Compile Include="Assets\_Inventory\Scripts\Item.cs" />
+    <Compile Include="Assets\_Inventory\Scripts\Slot.cs" />
+    <Compile Include="Assets\_Levels\Level 1\_Minigame\_Scripts\Collectable.cs" />
+    <Compile Include="Assets\_Levels\Level 1\_Minigame\_Scripts\GameManager1.cs" />
+    <Compile Include="Assets\_Levels\Level 1\_Minigame\_Scripts\GhostController.cs" />
+    <Compile Include="Assets\_Levels\Level 1\_Minigame\_Scripts\PlayerController.cs" />
+    <Compile Include="Assets\_Levels\Level 1\_Minigame\_Scripts\TeleportPadChecker.cs" />
+    <Compile Include="Assets\_Levels\Level 1\_Minigame\_Scripts\Utility.cs" />
+    <Compile Include="Assets\_Levels\Level 2\_Minigame\_Scripts\AddScrore.cs" />
+    <Compile Include="Assets\_Levels\Level 2\_Minigame\_Scripts\CactusMove.cs" />
+    <Compile Include="Assets\_Levels\Level 2\_Minigame\_Scripts\GameManager.cs" />
+    <Compile Include="Assets\_Levels\Level 2\_Minigame\_Scripts\Score.cs" />
+    <Compile Include="Assets\_Levels\Level 2\_Minigame\_Scripts\Spaceship.cs" />
+    <Compile Include="Assets\_Levels\Level 2\_Minigame\_Scripts\Spawner.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Background\Demo\BackgroundHelper.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Minigame\_Scripts\AlienMinigame.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Minigame\_Scripts\Cubs.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Minigame\_Scripts\FollowAlienXPos.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Minigame\_Scripts\iceSheetMove.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Minigame\_Scripts\IceSheetSpawn.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Minigame\_Scripts\PolarBear.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Minigame\_Scripts\PolarBearSpawner.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Minigame\_Scripts\TimerMinigame.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Scripts\Checkpoint.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Scripts\EnemyMotion.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Scripts\FireballMotion.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Scripts\FireballSpawn.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Scripts\Flip.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Scripts\OnGround.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Scripts\OpenChest.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Scripts\ParallaxCode.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Scripts\Portal.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Scripts\Snowball.cs" />
+    <Compile Include="Assets\_Levels\Level 3\_Scripts\Yeti.cs" />
+    <Compile Include="Assets\_Misc\Healthbar\experiencebar.cs" />
+    <Compile Include="Assets\_Misc\Healthbar\healthbar.cs" />
+    <Compile Include="Assets\_Scripts\Alien.cs" />
+    <Compile Include="Assets\_Scripts\Bullet.cs" />
+    <Compile Include="Assets\_Scripts\CoinCollection.cs" />
+    <Compile Include="Assets\_Scripts\EndGame.cs" />
+    <Compile Include="Assets\_Scripts\Enemy.cs" />
+    <Compile Include="Assets\_Scripts\HiddenTiles.cs" />
+    <Compile Include="Assets\_Scripts\ItemSpawn.cs" />
+    <Compile Include="Assets\_Scripts\Minigames.cs" />
+    <Compile Include="Assets\_Scripts\nextScene.cs" />
+    <Compile Include="Assets\_Scripts\Player.cs" />
+    <Compile Include="Assets\_Scripts\PlayerData.cs" />
+    <Compile Include="Assets\_Scripts\PlayerSpawn.cs" />
+    <Compile Include="Assets\_Scripts\Progress.cs" />
+    <Compile Include="Assets\_Scripts\Projectile.cs" />
+    <Compile Include="Assets\_Scripts\SaveSystem.cs" />
+    <Compile Include="Assets\_StartGame\_Scripts\Button.cs" />
+    <Compile Include="Assets\_StartGame\_Scripts\Planet.cs" />
+    <Compile Include="Assets\_StartGame\_Scripts\PlayerSelection.cs" />
+    <Compile Include="Assets\_StartGame\_Scripts\Scroll.cs" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\_Misc\Healthbar\_Materials\UnlitAlpha.shader" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\_Levels\Level 3\_Minigame\_TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Cinemachine">
-      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/0 Title Slide/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/Fryderyk's Frontier/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/0 Title Slide/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/Fryderyk's Frontier/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/0 Title Slide/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/Fryderyk's Frontier/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/0 Title Slide/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/Fryderyk's Frontier/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/0 Title Slide/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/Fryderyk's Frontier/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/0 Title Slide/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/Fryderyk's Frontier/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/0 Title Slide/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/Fryderyk's Frontier/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.3.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -349,13 +363,13 @@
       <HintPath>/Applications/Unity/Hub/Editor/2018.3.14f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/0 Title Slide/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/Fryderyk's Frontier/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/0 Title Slide/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/Fryderyk's Frontier/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/0 Title Slide/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/immyprince/Desktop/Immy's Stuff/School Stuff/Year 2/SE2250B/Unity/Fryderyk's Frontier/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2018.3.14f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

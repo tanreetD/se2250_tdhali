@@ -24,6 +24,27 @@ TagManager:
   - BulletDestroy
   - HealthBar
   - Spawn
+  - CameraTrigger1
+  - SpawnCheckpoint
+  - SpawnFinish
+  - Wolf
+  - Wolf Cubs
+  - Coins
+  - Cactus
+  - Item
+  - Inventory
+  - Slotholder
+  - Jewel
+  - Counter
+  - Level
+  - XP
+  - Spawn0
+  - Spawn1
+  - Spawn2
+  - Spawn3
+  - Elephant
+  - Panda
+  - BulletSpawn
   layers:
   - Default
   - TransparentFX
