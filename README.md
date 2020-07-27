@@ -23,6 +23,6 @@ This was a mini game that pops up after the user finsihes level 1. They need to 
 ![](Pacman.gif)
 
 #### Level Three
-In this level I worked on programming the Yeti enemy which shoots snowballs at the alien. The Yeti also changes direction either left or right based on the position of the Alien to increase the difficulty. 
+In this level I worked on programming the Yeti enemy which shoots snowballs at the alien. The alien loses health when it comes in contact with the Yeti and the snowballs. The Yeti also changes direction either left or right based on the position of the Alien to increase the difficulty. 
 
 ![](LevelThree.gif)
