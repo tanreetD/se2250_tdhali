@@ -13,7 +13,7 @@ The character can walk, jump, run, slie and shoot weapons. The special items are
 ![](Title.gif)
 
 #### Level One
-I programmed level one of the game which has a platform style interface. The enemies are made to destory the health of the player and are programmed to jump up and down to catch the player once they try to cross over them.
+I programmed level one of the game which has a platform style interface. The enemies are made to destory the health of the player and are programmed to jump up and down.
 
 ![](LevelOne.gif)
 
