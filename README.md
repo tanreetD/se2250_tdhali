@@ -22,7 +22,7 @@ This was a mini game that pops up after the user finsihes level 1. They need to 
 
 ![](Pacman.gif)
 
-#### Inventory System
-The inventory system lets the player select certain power ups that gives them a boost in health, speed or even bonus points throughout the game. 
+#### Level Three
+In this level I wokred on created the Yeti enemy which shoots snowballs at the alien. The Yeti also changes direction either left or right based on the position of the Alien to increase the difficulty. 
 
-![](Inventory.gif)
+![](LevelThree.gif)
