@@ -7,6 +7,8 @@ This platform style game was created in Unity. The project focused on using OOP 
 #### Title Screen and Menu
 On the title screen I set up the rotating planets and the character selections screen that lets the user pick a character who has different power ups and strengths. 
 
+![](Title.gif)
+
 #### Level One
 I programmed level one of the game which has a platform style interface. The enemies are made to destory the health of the player and are programmed to jump up and down to catch the player once they try to cross over them.
 
