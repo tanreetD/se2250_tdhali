@@ -21,7 +21,7 @@ I programmed level one of the game which has a platform style interface. The ene
 ![](LevelOne.gif)
 
 #### Pacman Game
-This was a mini game that pops up after the user completes level 1. I built an algorithm so that the motion of ghosts is randomized and follow the user to increase the difficulty of the game as more pills are collected. The characters motion are restricted to the barriers of the maze and they collect the pills to obtain points and win the game. 
+This was a mini game that pops up after the user completes level 1. I built an algorithm so that the motion of ghosts is randomized and follow the user to increase the difficulty of the game as more pills are collected. The characters motion are restricted to the barriers of the maze. The player collects the pills to obtain points and win the game. 
 
 ![](Pacman.gif)
 
