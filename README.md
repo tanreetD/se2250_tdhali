@@ -2,7 +2,7 @@
 SE 2250 Final Software Development Project 
 
 ### Description of Project
-This platform style game was created in Unity. The project focused on using OOP programming skills. I worked on the title slides, the first level, the pacman style mini game and enemy features as showcased below. The code I worked on for the game can be found in the paths Assets/_Scripts, Assets/Levels/Level1/_Scripts and Assets/Levels/Level1/Minigame folder. Final Grade 90/100. 
+This platform style game was created in Unity using C#. The project focused on using OOP programming skills. I worked on the title slides, the first level, the pacman style mini game and enemy features as showcased below. The code I worked on for the game can be found in the paths Assets/_Scripts, Assets/Levels/Level1/_Scripts and Assets/Levels/Level1/Minigame folder. Final Grade 90/100. 
 
 #### Title Screen and Menu
 On the title screen I set up the rotating planets and the character selections screen that lets the user pick a character who has different power ups and strengths.
