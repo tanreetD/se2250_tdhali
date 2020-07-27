@@ -15,8 +15,14 @@ The character can walk, jump, run, slie and shoot weapons. The special items are
 #### Level One
 I programmed level one of the game which has a platform style interface. The enemies are made to destory the health of the player and are programmed to jump up and down to catch the player once they try to cross over them.
 
+![](LevelOne.gif)
+
 #### Pacman Game
 This was a mini game that pops up after the user finsihes level 1. They need to play this game in order to progress. I built an algorithm so that the ghosts are randomized in their motion and follow the user to increase the difficulty of the game. The characters motion are restricted to the barriers of the maze and they collect the pills to obtain points and win the final game. 
 
+![](Pacman.gif)
+
 #### Inventory System
 The inventory system lets the player select certain power ups that gives them a boost in health, speed or even bonus points throughout the game. 
+
+![](Inventory.gif)
