@@ -2,7 +2,7 @@
 SE 2250 Final Software Development Project 
 
 ### Description of Project
-This platform style game was created in Unity and C#. The project focused on using OOP programming skills and implementing the Software Development Lifecycle in a real life project. Final Grade 90/100. 
+This platform style game was created in Unity and C#. In a team of four we created the game design, levels and supporting technical documentation. The project focused on using OOP programming skills and implementing the Software Development Lifecycle in a real life project. Final Grade 90/100. 
 
 ### Features Worked On
 I worked on the title slides, the first level, the pacman style mini game and enemy features as showcased below. The code I worked on for the game can be found in the paths Assets/_Scripts, Assets/Levels/Level1/_Scripts and Assets/Levels/Level1/Minigame folder. 
@@ -21,7 +21,7 @@ I programmed level one of the game which has a platform style interface. The ene
 ![](LevelOne.gif)
 
 #### Pacman Game
-This was a mini game that pops up after the user finsihes level 1. They need to play this game in order to progress. I built an algorithm so that the ghosts are randomized in their motion and follow the user to increase the difficulty of the game as more pills are collected. The characters motion are restricted to the barriers of the maze and they collect the pills to obtain points and win the final game. 
+This was a mini game that pops up after the user completes level 1. I built an algorithm so that the motion of ghosts is randomized and follow the user to increase the difficulty of the game as more pills are collected. The characters motion are restricted to the barriers of the maze and they collect the pills to obtain points and win the game. 
 
 ![](Pacman.gif)
 
