@@ -5,12 +5,12 @@ SE 2250 Final Software Development Project
 This platform style game was created in Unity. The project focused on using OOP programming skills. I worked on the inventory features, title slides, one level and the pacman style mini game showcased below. The code I worked on for the game can be found in the paths Assets/_Scripts, Assets/Levels/Level1/_Scripts and Assets/Levels/Level1/Minigame folder. Final Grade 90/100. 
 
 #### Title Screen and Menu
-On the title screen I set up the rotating planets and the character selections screen that lets the user pick a character who has different power ups and strengths. 
+On the title screen I set up the rotating planets and the character selections screen that lets the user pick a character who has different power ups and strengths.
+
+##### Controls
+The character can walk, jump, run, slie and shoot weapons. The special items are each programmed to have a special power boost. 
 
 ![](Title.gif)
-
-#### Controls
-The character can walk, jump, run, slie and shoot weapons. The special items are each programmed to have a special power boost. 
 
 #### Level One
 I programmed level one of the game which has a platform style interface. The enemies are made to destory the health of the player and are programmed to jump up and down to catch the player once they try to cross over them.
