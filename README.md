@@ -7,7 +7,7 @@ This platform style game was created in Unity. The project focused on using OOP 
 #### Title Screen and Menu
 On the title screen I set up the rotating planets and the character selections screen that lets the user pick a character who has different power ups and strengths.
 
-##### Controls
+#### Controls
 The character can walk, jump, run, slie and shoot weapons. The special items are each programmed to have a special power boost. 
 
 ![](Title.gif)
