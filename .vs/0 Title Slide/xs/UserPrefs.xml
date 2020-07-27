@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{DD4BC5CD-5C4C-602D-3EB9-E3D690F4E8F2}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_StartMenu/Start Menu Scripts/PlayerSelection.cs">
+    <Files>
+      <File FileName="Assets/Level 1/Level One Scripts/OnGround.cs" Line="20" Column="36" />
+      <File FileName="Assets/Level 0/Level 0 Scripts/PlayerData.cs" Line="14" Column="37" />
+      <File FileName="Assets/Level 0/Level 0 Scripts/SaveSystem.cs" Line="14" Column="52" />
+      <File FileName="Assets/Healthbar/healthbar.cs" Line="36" Column="22" />
+      <File FileName="Assets/Level 1/ArcticMinigame/Scripts/PolarBear.cs" Line="6" Column="2" />
+      <File FileName="Assets/Level 1/ArcticMinigame/Scripts/PolarBearSpawner.cs" Line="10" Column="35" />
+      <File FileName="Library/PackageCache/com.unity.cinemachine@2.2.9/Runtime/Behaviours/CinemachineVirtualCamera.cs" Line="80" Column="42" />
+      <File FileName="Assets/PlayerSpawn.cs" Line="17" Column="77" />
+      <File FileName="Assets/_StartMenu/Start Menu Scripts/PlayerSelection.cs" Line="21" Column="20" />
+      <File FileName="Assets/_Scripts/Bullet.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Levels/Level 1/Level One Scripts/Alien.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="0 Title Slide" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="_Levels" expanded="True">
+                <Node name="Level 1" expanded="True">
+                  <Node name="Level One Scripts" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="_Scripts" expanded="True" />
+              <Node name="_StartMenu" expanded="True">
+                <Node name="Start Menu Scripts" expanded="True">
+                  <Node name="PlayerSelection.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f7f50c8f-b97f-4222-90ea-ce0cf66c6cea" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
